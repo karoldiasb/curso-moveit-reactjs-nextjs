@@ -10,4 +10,5 @@ export interface IChallengesContextData {
     activeChallenge: IChallenge;
     resetChallenge: () => void;
     completeChallenge: () => void;
+    closeLevelUpModal: () => void;
 }
