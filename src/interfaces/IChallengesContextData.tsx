@@ -9,5 +9,5 @@ export interface IChallengesContextData {
     startNewChallenge: () => void;
     activeChallenge: IChallenge;
     resetChallenge: () => void;
-    updateXp: () => void;
+    completeChallenge: () => void;
 }
