@@ -10,12 +10,6 @@ import { CountdownProvider } from "../contexts/CountdownContext";
 import { ChallengesProvider } from '../contexts/ChallengesContext';
 
 
-interface HomeProps{
-  level: number; 
-  currentExperience: number;
-  challengesCompleted: number;
-}
-
 export default function Home(props) {
   return (
     <ChallengesProvider
